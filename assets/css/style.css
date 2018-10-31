@@ -1,0 +1,441 @@
+
+
+ body {
+    overflow-x: hidden;
+  }
+  .videoCard{
+    border-width: 0;
+   
+  }
+  .contactInfo img{
+    display: inline-block;
+  }
+  .contactInfo  p{
+    display: inline-block;
+    margin-left: 3em;
+  }
+  .highlight{
+    color:goldenrod !important;
+    text-decoration: underline !important;
+  }
+  .makeBgImg{
+    background-image: url("../images/architecture-art-clouds-290386.jpg");
+  background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contactContainer{
+    
+    height: 45em;
+    margin-top: 10em;
+    font-family: "Karla", Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400;
+margin-bottom: 3em;
+  color: gray;
+  }
+  .noBorder{
+    border-width: 0;
+  }
+  .contactForm{
+    
+    width: 100%;
+   
+    border-radius: 2%;
+    background-color: white;
+  }
+  .noPadding img{
+   
+    margin: 0 !important;
+   padding: 0 !important; 
+  }
+  .noPadding{
+   margin: 0 !important;
+   padding: 0 !important;
+    
+  }
+  .styleIt{
+    font-family: "Playfair Display", Georgia, serif;
+  }
+ .toggler-container{
+   z-index: 9999;
+ }
+ .profolio{
+   margin-top: 10em;
+   width: 100%;
+ }
+
+ .desc{
+   padding: 2em 0 2em 0;
+   padding-left: 2em;
+ }
+ .services{
+  font-family: "Karla", Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400;
+margin-bottom: 3em;
+  color: gray;
+ }
+ .serWrapper{
+   margin-top: 4em;
+ }
+
+ .services ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  
+}
+ .services ul li::before {
+  content: '\2022';
+  color: #000;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  
+}
+.aboutBio{
+  padding-left: 4em;
+  margin-top: -2em;
+    font-weight: 400;
+    font-family: "Karla", Arial, sans-serif;
+    display: block;
+    
+    line-height: 1.8;
+    font-size: 16px;
+    color: gray;
+}
+.services h3 {
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about-desc .desc {
+    
+    position: relative;
+}
+.about-desc .rotate {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+}
+.rotate .heading:after {
+  position: absolute;
+  top: 8px;
+
+  content: '';
+  background: #000;
+  width: 40px;
+  height: 1px;
+}
+.rotateTwo{
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  margin-left: -3em;
+}
+.rotateTwo .heading:after{
+  position: absolute;
+  top: 8px;
+right: -40px;;
+  content: '';
+  background: #000;
+  width: 40px;
+  height: 1px;
+}
+.rotateTwo .heading{
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  position: relative;
+}
+.rotate .heading {
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  position: relative;
+}
+ .headerName h2 span {
+   text-align: center;
+    display: block;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 50px;
+    font-family: "Playfair Display", Georgia, serif;
+}
+.headerNameSer h2 span{
+  text-align: center;
+    display: block;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 40px;
+    font-family: "Playfair Display", Georgia, serif;
+}
+  
+  .about-desc {
+    padding-top: 3em;
+    
+}  
+ 
+  .aboutText{
+    margin-top: 0;
+  }
+  .bold{
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-family: "Playfair Display", Georgia, serif;
+  }
+  .profPicContainer{
+    height: 30em;
+    width: 80%;
+  
+    margin: auto;
+    overflow: hidden;
+  }
+  .profPicContainer img{
+    width: 100%;
+    height: auto;
+  }
+  .AboutContainer{
+    margin-top: 5em;
+    
+  }
+  .var{
+    padding: 0;
+  }
+  .header{
+    padding: 3em;
+    margin: auto;
+    position: relative;
+    width: 20em;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    line-height: 1.3;
+    font-weight: 700;
+    color: black;
+    font-family: "Playfair Display", Georgia, serif;
+    background-color: black;
+    color: white;
+   
+  }
+  .contact-Button{
+    margin-left: 1em;
+  }
+  .header h1{
+    font-size: 60px;
+  }
+  .myPic{
+      width: 15em;
+      height: 15em;
+      
+      margin-left: 1.5em;
+      }
+.bg-Img{
+  height: 63em;
+width: 100%;
+  background-image: url("../images/america-american-flag-architecture-450597.jpg");
+  background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+  .myPic img{
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  .toggler-container{
+    width: 3em;
+    height: 3em;
+    position: fixed;
+  }
+  .toggler-container img{
+    width: 100%;
+    height: 100%;
+  }
+  .me{
+      margin-top: 2em;
+      margin-bottom: 5em;
+  }
+  .subInfo{
+      color: white;
+      text-align: center;
+      margin-right: 1em;
+  }
+  .copyright{
+      margin-top: 10em;
+      width: 90%;
+      text-align: center;
+      color: #444444;
+  }
+.navtoggle{
+    right: 0;
+    margin-top: 2em;
+  }
+  /* SideBar Setting */
+  #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  
+  
+  #sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  
+  #page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 0;
+  }
+  
+  #wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+  }
+  
+  
+  /* Sidebar Styles */
+  
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 2em;
+    
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+  }
+  
+  .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+  
+  .sidebar-nav>.sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+  }
+  
+  .sidebar-nav>.sidebar-brand a {
+    color: #999999;
+  }
+  
+  .sidebar-nav>.sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+  @media(min-width:990px){
+    .headerName h2 span {
+      
+      text-align: left; 
+    }
+    .headerNameSer h2 span {
+      
+      text-align: left; 
+    }
+    .aboutText{
+    margin-top: -8em;
+  }
+  .moveUp{
+    margin-top: -8em;
+  }
+  .bold{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 250px;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-family: "Playfair Display", Georgia, serif;
+  }
+  }
+  @media(min-width:768px) {
+   
+    .header{
+      margin: 0;
+    }
+    .var{
+      padding: 1;
+    }
+    #wrapper {
+      padding-left: 0;
+    }
+    #wrapper.toggled {
+      padding-left: 250px;
+    }
+    #sidebar-wrapper {
+      width: 0;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+      width: 250px;
+    }
+    #page-content-wrapper {
+      padding: 0;
+      position: relative;
+    }
+    #wrapper.toggled #page-content-wrapper {
+      position: relative;
+      margin-right: 0;
+    }
+  }
+  
