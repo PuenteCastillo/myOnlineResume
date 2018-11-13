@@ -197,6 +197,7 @@ right: -40px;;
     font-weight: 700;
     font-family: "Playfair Display", Georgia, serif;
   }
+ 
   .profPicContainer{
     height: 30em;
     width: 80%;
@@ -279,7 +280,7 @@ width: 100%;
       margin-right: 1em;
   }
   .copyright{
-      margin-top: 10em;
+      margin-top: 5em;
       width: 90%;
       text-align: center;
       color: #444444;

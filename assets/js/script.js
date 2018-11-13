@@ -15,40 +15,59 @@ function parallax() {
         $("#navHome").addClass("highlight");
         $("#navAbout").removeClass("highlight");
         $("#navServices").removeClass("highlight");
-        $("#navPortfolio").removeClass("highlight");
+        $("#navCoding").removeClass("highlight");
         $("#navContact").removeClass("highlight");
+        $("#navPhotography").removeClass("highlight");
     }
     if(wScroll <= 1500 && wScroll >=500){
         $("#navAbout").addClass("highlight");
         $("#navHome").removeClass("highlight");
         $("#navServices").removeClass("highlight");
-        $("#navPortfolio").removeClass("highlight");
+       
         $("#navContact").removeClass("highlight");
-
+        $("#navPhotography").removeClass("highlight");
+        $("#navCoding").removeClass("highlight");
        
     }
     if(wScroll <= 2500 && wScroll >= 1501){
         $("#navServices").addClass("highlight");
         $("#navAbout").removeClass("highlight");
         $("#navHome").removeClass("highlight");
-        $("#navPortfolio").removeClass("highlight");
+  
         $("#navContact").removeClass("highlight");
+        $("#navPhotography").removeClass("highlight");
+        $("#navCoding").removeClass("highlight");
       
     }
     if(wScroll <= 3500  && wScroll >= 2501){
-        $("#navPortfolio").addClass("highlight");
+        $("#navCoding").addClass("highlight");
         $("#navAbout").removeClass("highlight");
         $("#navServices").removeClass("highlight");
         $("#navHome").removeClass("highlight");
         $("#navContact").removeClass("highlight");
+        $("#navPhotography").removeClass("highlight");
+ 
         
     }
     if(wScroll <= 4000  && wScroll >= 3500){
-        $("#navContact").addClass("highlight");
+        $("#navPhotography").addClass("highlight");
         $("#navAbout").removeClass("highlight");
         $("#navServices").removeClass("highlight");
-        $("#navPortfolio").removeClass("highlight");
+       
         $("#navHome").removeClass("highlight");
+        $("#navContact").removeClass("highlight");
+        $("#navCoding").removeClass("highlight");
+        
+    }
+    if(wScroll > 4000 ){
+        $("#navContact").addClass("highlight");
+        $("#navPhotography").removeClass("highlight");
+        $("#navAbout").removeClass("highlight");
+        $("#navServices").removeClass("highlight");
+       
+        $("#navHome").removeClass("highlight");
+     
+        $("#navCoding").removeClass("highlight");
         
     }
 console.log(wScroll);
