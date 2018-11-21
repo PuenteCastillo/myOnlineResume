@@ -70,7 +70,7 @@ function parallax() {
         $("#navCoding").removeClass("highlight");
         
     }
-console.log(wScroll);
+
 }
 
 $("#menu-toggle").click(function (e) {
